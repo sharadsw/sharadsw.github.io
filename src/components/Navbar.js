@@ -5,11 +5,12 @@ const Navbar = () => {
   const data = {
     name: 'Sharad Swaminathan'
   }
+  
   return (
-    <nav className="navbar is-size-4 has-text-weight-bold p-6">
-      
+    <nav className="navbar is-size-4 mb-6">
+
       <div className="navbar-brand">
-        <a className="navbar-item" href="/">
+        <a className="navbar-item has-text-weight-bold" href="/">
           {data.name}
         </a>
       </div>
