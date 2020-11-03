@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bulma/css/bulma.min.css';
+import '@fortawesome/fontawesome-free/css/all.css'
 
 import Navbar from './components/Navbar'
-import About from './layouts/About'
 import Menu from './components/Menu'
+import About from './layouts/About'
+import Skills from './layouts/Skills'
+import Footer from './layouts/Footer'
 
 const App = () => {
   return (
-    <div className="container p-6">
+    <div className="container">
       <Navbar />
 
       <div className="columns">
@@ -18,8 +21,11 @@ const App = () => {
         </div>
         <div className="column">
           <About />
+          <Skills />
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
