@@ -17,15 +17,9 @@ const Skills = () => {
       name: 'JavaScript',
       icon: 'javascript'
     },
-    {
-      name: 'JavaScript',
-      icon: 'javascript'
-    },
   ]
 
   return (
-    <section className="section pt-0 pl-0" id="skills">
-
     <div className="container">
       <h1 className="title">
         Skills
@@ -58,8 +52,6 @@ const Skills = () => {
         </div>
       </div>
     </div>
-
-    </section>
   )
 }
 

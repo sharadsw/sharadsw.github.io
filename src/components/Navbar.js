@@ -1,29 +1,35 @@
 import React from 'react'
 
 const Navbar = () => {
-  const data = {
-    name: 'Sharad Swaminathan'
-  }
+  const sections = [
+    'Home',
+    'About',
+    'Projects',
+    'Skills',
+    'Contact'
+  ]
   
   return (
-    <nav className="navbar is-size-4 mb-6 pt-6 is-fixed">
+    <nav className="navbar is-size-4 px-6">
 
       <div className="navbar-brand">
-        <a className="navbar-item has-text-weight-bold" href="/">
-          {data.name}
-        </a>
+        
+      </div>
+
+      <div className="navbar-menu is-size-6">
+        <div className="navbar-start">
+          {
+            sections.map(section => 
+              <a className="navbar-item" href="/">{section}</a>)
+          }
+        </div>
       </div>
 
       <div className="navbar-end">
         <div className="navbar-items">
-          <div className="buttons">
-            <a className="button" href="/">
-              Linkedin
-            </a>
-            <a className="button" href="/">
-              Github
-            </a>
-            <a className="button is-info" href="/">
+        
+          <div className="field is-grouped">
+            <a className="button is-dark mt-2 has-text-weight-bold is-uppercase" href="/">
               Resume
             </a>
           </div>

@@ -8,23 +8,22 @@ import Navbar from './components/Navbar'
 import Menu from './components/Menu'
 import About from './layouts/About'
 import Skills from './layouts/Skills'
+import Projects from './layouts/Projects'
 import Footer from './layouts/Footer'
 
 const App = () => {
   return (
-    <div className="container">
+    <div>
       <Navbar />
-
-      <div className="columns">
-        <div className="column is-one-quarter">
-          <Menu />
-        </div>
-        <div className="column">
-          <About />
-          <Skills />
-        </div>
-      </div>
-
+      <section className="section" id="about">
+        <About /> 
+      </section>
+      <section className="section" id="projects">
+        <Projects />
+      </section>
+      <section className="section" id="skills">
+        <Skills />
+      </section>
       <Footer />
     </div>
   )
