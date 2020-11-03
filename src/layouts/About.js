@@ -1,11 +1,12 @@
 import React from 'react'
-import 'bulma/css/bulma.min.css'
 
 const About = () => {
 
   return (
+    <section className="section pt-0 pl-0" id="about">
+
     <div className="container">
-      <h1 class="title">
+      <h1 className="title">
         About Me     
       </h1>
       <p>
@@ -15,6 +16,8 @@ const About = () => {
         Mauris placerat eleifend leo.
       </p>
     </div>
+
+    </section>
   )
 }
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bulma/css/bulma.min.css'
 
 const Navbar = () => {
   const data = {
@@ -7,7 +6,7 @@ const Navbar = () => {
   }
   
   return (
-    <nav className="navbar is-size-4 mb-6">
+    <nav className="navbar is-size-4 mb-6 pt-6 is-fixed">
 
       <div className="navbar-brand">
         <a className="navbar-item has-text-weight-bold" href="/">
@@ -17,14 +16,14 @@ const Navbar = () => {
 
       <div className="navbar-end">
         <div className="navbar-items">
-          <div class="buttons">
-            <a class="button" href="/">
+          <div className="buttons">
+            <a className="button" href="/">
               Linkedin
             </a>
-            <a class="button" href="/">
+            <a className="button" href="/">
               Github
             </a>
-            <a class="button is-dark" href="/">
+            <a className="button is-info" href="/">
               Resume
             </a>
           </div>

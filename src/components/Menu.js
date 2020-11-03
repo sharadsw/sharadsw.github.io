@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bulma/css/bulma.min.css'
 
 const Menu = () => {
   const sections = [
@@ -10,14 +9,18 @@ const Menu = () => {
   ]
 
   return (
-    <aside className="menu">
+    <aside className="menu is-fixed">
       <ul className="menu-list">
         {sections.map(section => 
-          <li><a href="/">{section}</a></li>
+          <li key={section}><a href={generateRef(section)}>{section}</a></li>
         )}
       </ul>
     </aside>
   )
+}
+
+const generateRef = (word) => {
+  return '#' + word.toLowerCase()
 }
 
 export default Menu
