@@ -1,12 +1,16 @@
 import React from 'react'
-import Skills from '../layouts/Skills'
 
 const Skill = ({ name, icon }) => {
   
   return (
-    <span className="icon mr-6 mb-6 is-large skill">
-      <i className={icon}></i>
-    </span>
+    <div>
+      <span className="is-size-1">
+        <i className={icon}></i>
+      </span>
+      <span className="ml-4">
+        {name}
+      </span>
+    </div>
   )
 }
 
