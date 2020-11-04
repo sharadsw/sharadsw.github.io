@@ -1,26 +1,21 @@
 import React from 'react'
 
+import nav from '../data/nav'
+
 const Navbar = () => {
-  const sections = [
-    'Home',
-    'About',
-    'Projects',
-    'Skills',
-    'Contact'
-  ]
-  
+ 
   return (
-    <nav className="navbar is-size-4 px-6">
+    <nav className="navbar is-size-4 px-6 is-transparent">
 
       <div className="navbar-brand">
         
       </div>
 
-      <div className="navbar-menu is-size-6">
+      <div className="pt-1 is-size-6">
         <div className="navbar-start">
           {
-            sections.map(section => 
-              <a className="navbar-item" href="/">{section}</a>)
+            nav.map(section => 
+              <a className="navbar-item" href={section.ref}>{section.name}</a>)
           }
         </div>
       </div>
