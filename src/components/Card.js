@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({ name, desc, tags, link, repo }) => {
 
   return (
     <div className="card mb-4">
@@ -12,28 +12,26 @@ const Card = () => {
           </div>
 
           <div className="media-content">
+            <a href={link}>
             <p className="title is-4">
-              Project Name
-            </p>
+              {name}
+            </p></a>
             <p className="subtitle is-6">
-              Project Desc
+              {desc}
             </p>
           </div>
         </div>
 
         <p>
-              <span class="tag is-link mr-1">
-                Tag label
-              </span>
-              <span class="tag is-link">
-                Tag label
-              </span>
-            </p>
-            <p>
-              <a className="button is-dark mt-2 has-text-weight-bold is-uppercase" href="/">
-                Repo
-              </a>
-            </p>
+          {tags.map(tag => 
+            <span key={tag} className="tag is-link mr-1">{tag}</span>
+          )}
+        </p>
+        <p>
+          <a className="button is-dark mt-2 has-text-weight-bold is-uppercase" href={repo}>
+            Repo
+          </a>
+        </p>
       </div>
     </div>
   )
