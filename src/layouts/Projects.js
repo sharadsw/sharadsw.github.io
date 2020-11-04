@@ -4,6 +4,8 @@ import Card from '../components/Card'
 
 const Projects = () => {
   return (
+    <section className="section" id="projects">
+
     <div className="container">
       <h1 className="title">
         Projects
@@ -11,6 +13,8 @@ const Projects = () => {
       <Card />
       <Card />
     </div>
+    
+    </section>
   )
 }
 
