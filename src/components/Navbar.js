@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="navbar-start">
           {
             nav.map(section => 
-              <a className="navbar-item" href={section.ref}>{section.name}</a>)
+              <a key={section.name} className="navbar-item" href={section.ref}>{section.name}</a>)
           }
         </div>
       </div>
