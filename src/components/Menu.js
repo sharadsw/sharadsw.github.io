@@ -1,3 +1,6 @@
+// Lefthand menu
+// No longer used
+
 import React from 'react'
 
 const Menu = () => {
