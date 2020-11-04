@@ -3,6 +3,8 @@ import React from 'react'
 const About = () => {
 
   return (
+    <section className="section" id="about">
+
     <div className="container">
       <h1 className="title">
         About Me     
@@ -14,6 +16,8 @@ const About = () => {
         Mauris placerat eleifend leo.
       </p>
     </div>
+    
+    </section>
   )
 }
 
