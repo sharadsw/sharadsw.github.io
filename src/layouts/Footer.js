@@ -1,34 +1,34 @@
 import React from 'react'
 
+import links from '../data/links'
+
 const Footer = () => {
 
   return (
     <footer className="footer" id="contact">
-      <div className="container has-text-centered">
+      <div className="container has-text-centered is-max-desktop">
         <p className="buttons is-centered">
-          <button className="button">
+          <a className="button is-primary" href={links.email} target="_blank" rel="noreferrer">
             <span className="icon is-small">
               <i className="far fa-envelope"></i>
             </span>
-          </button>
+          </a>
 
-          <button className="button">
+          <a className="button is-primary" href={links.linkedin} target="_blank" rel="noreferrer">
             <span className="icon is-small">
               <i className="fab fa-linkedin-in"></i>
             </span>
-          </button>
+          </a>
 
-          <button className="button">
+          <a className="button is-primary" href={links.github} target="_blank" rel="noreferrer">
             <span className="icon is-small">
               <i className="fab fa-github"></i>
             </span>
-          </button>
+          </a>
         </p>
 
-        <hr />
-
         <p>
-          Placeholder text right here right here right here right here
+          Sharad Swaminathan © {new Date().getFullYear()}
         </p>
       </div>
     </footer>

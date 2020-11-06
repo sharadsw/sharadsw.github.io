@@ -35,8 +35,8 @@ const Skills = () => {
   return (
     <section className="section" id="skills">
 
-    <div className="container">
-      <h1 className="title">
+    <div className="container is-max-desktop">
+      <h1 className="title is-size-1">
         Skills
       </h1>
 
