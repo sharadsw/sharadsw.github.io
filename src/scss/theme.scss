@@ -23,9 +23,12 @@ $title-weight: 800;
 $title-color: $deep-blue;
 $subtitle-color: $subtle-grey;
 
+// Only used if navbar is-spaced
+$navbar-padding-vertical: 0;
+$navbar-padding-horizontal: 8em;
+
 $footer-color: $subtle-grey-dark;
 $footer-background-color: $deep-blue-dark;
-
 
 // Bulma imports
 @import "../../node_modules/bulma/bulma.sass";
