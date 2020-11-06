@@ -2,10 +2,18 @@ import React from 'react'
 
 import nav from '../data/nav'
 
+import logo from '../assets/logo.png'
+
 const Navbar = () => {
  
   return (
-    <nav className="navbar is-spaced">
+    <nav className="navbar is-fixed-top">
+      
+      <div className="navbar-brand">
+        <a href="/" className="navbar-item">
+          <img src={logo} />
+        </a>
+      </div>
 
       <div className="navbar-menu" id="target">
         <div className="navbar-end">
