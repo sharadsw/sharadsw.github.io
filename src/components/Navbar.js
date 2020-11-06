@@ -7,11 +7,11 @@ import logo from '../assets/logo.png'
 const Navbar = () => {
  
   return (
-    <nav className="navbar is-fixed-top">
+    <nav className="navbar is-transparent is-fixed-top" id="#top">
       
       <div className="navbar-brand">
-        <a href="/" className="navbar-item">
-          <img src={logo} />
+        <a href="#top" className="navbar-item">
+          <img src={logo} alt="" />
         </a>
       </div>
 
