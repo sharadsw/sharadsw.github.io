@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Card = ({ name, desc, tags, link, repo }) => {
+const Card = ({ name, desc, tags, link }) => {
 
   return (
-    <a href={link}>
+    <a href={link} target="_blank" rel="noreferrer">
 
     <div className="card mb-4 card-border">
       <div className="card-content">
