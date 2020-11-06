@@ -14,10 +14,9 @@ const Card = ({ name, desc, tags, link, repo }) => {
           </div>
 
           <div className="media-content">
-            <a href={link}>
             <p className="title is-4">
               {name}
-            </p></a>
+            </p>
             <p className="subtitle is-6">
               {desc}
             </p>
