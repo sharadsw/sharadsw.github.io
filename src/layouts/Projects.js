@@ -2,15 +2,9 @@ import React from 'react'
 
 import Card from '../components/Card'
 
-const Projects = () => {
-  const data = {
-    name: 'My prog',
-    desc: 'incredible',
-    tags: ['React', 'HTML', 'JS'],
-    link: 'www.google.com',
-    repo: 'www.github.com'
-  }
+import projects from '../data/projects'
 
+const Projects = () => {
   return (
     <section className="section" id="projects">
 
@@ -18,8 +12,9 @@ const Projects = () => {
       <h1 className="title is-size-1">
         Projects
       </h1>
-      <Card name={data.name} desc={data.desc} tags={data.tags} link={data.link} repo={data.repo} />
-      <Card name={data.name} desc={data.desc} tags={data.tags} link={data.link} repo={data.repo} />
+      {projects.map(data =>
+        <Card key={data.name} name={data.name} desc={data.desc} tags={data.tags} link={data.link} />
+      )}
     </div>
 
     </section>
