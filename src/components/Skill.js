@@ -4,10 +4,10 @@ const Skill = ({ name, icon }) => {
   
   return (
     <div>
-      <span className="is-size-1 has-text-dark">
+      <span className="is-size-1 has-text-link">
         <i className={icon}></i>
       </span>
-      <span className="ml-4 has-text-dark">
+      <span className="ml-4">
         {name}
       </span>
     </div>
