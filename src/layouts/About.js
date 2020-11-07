@@ -1,6 +1,7 @@
 import React from 'react'
 
 import links from '../data/links'
+import resume from '../assets/resume.pdf'
 
 const About = () => {
 
@@ -23,7 +24,7 @@ const About = () => {
         <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email} target="_blank" rel="noreferrer">
           Email
         </a>
-        <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.resume} target="_blank" rel="noreferrer">
+        <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={resume} target="_blank" rel="noreferrer">
           Resume
         </a>
       </p>
