@@ -13,7 +13,7 @@ const projects = [
     },
     {
         name: 'Lyricify',
-        desc: 'A CLI app written in Python for web scraping lyrics for Spotify.',
+        desc: 'A CLI app written in Python for web scraping Spotify lyrics.',
         tags: ['Web Scraping', 'BeautifulSoup', 'GTK', 'Python'],
         link: 'https://github.com/sharadsw/lyricify',
     },
