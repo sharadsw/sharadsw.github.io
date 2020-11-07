@@ -10,13 +10,14 @@ const About = () => {
 
     <div className="container is-max-desktop">
       <h1 className="title is-size-1">
-        Hi, I'm Sharad Swaminathan.   
+        Hi, I'm Sharad.   
       </h1>
       <p>
-        I'm a Full Stack developer currently looking for work. Lately I've been trying to improve my skills
+        I'm a Full Stack developer currently looking for fun and challenging work. Lately I've been trying to improve my skills
         by working on React, Express, and Node thanks to the <a href="https://www.fullstackopen.com" target="_blank" rel="noreferrer">
         fullstackopen</a> coursework.
-        
+      </p>
+      <p>  
         In my free time, I like watching football, listening to music, playing chess, and working out. Feel free to contact me
         if you'd like to connect!
       </p>
