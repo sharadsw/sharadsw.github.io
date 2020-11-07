@@ -12,16 +12,18 @@ const About = () => {
         Hi, I'm Sharad Swaminathan.   
       </h1>
       <p>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
-        Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
-        Mauris placerat eleifend leo.
+        I'm a Full Stack developer currently looking for work. Lately I've been trying to improve my skills
+        by working on React, Express, and Node thanks to the <a href="https://www.fullstackopen.com" target="_blank" rel="noreferrer">
+        fullstackopen</a> coursework.
+        
+        In my free time, I like watching football, listening to music, playing chess, and working out. Feel free to contact me
+        if you'd like to connect!
       </p>
       <p>
-        <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email}>
+        <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email} target="_blank" rel="noreferrer">
           Email
         </a>
-        <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.resume}>
+        <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.resume} target="_blank" rel="noreferrer">
           Resume
         </a>
       </p>
