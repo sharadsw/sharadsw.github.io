@@ -3,7 +3,7 @@ const projects = [
         name: 'det0x - Toxic Comments Classifier',
         desc: 'A web-app written in Python designed to classify toxic user comments on Twitter.',
         tags: ['Keras', 'Flask', 'Twitter API', 'Jinja', 'Python'],
-        link: '/',
+        link: 'https://gitlab.com/sharadsw/toxic-comments',
     },
     {
         name: 'Portfolio',
