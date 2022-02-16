@@ -1,8 +1,14 @@
 const projects = [
     {
+        name: 'EMIE 2.0',
+        desc: 'A web-app written in Python that visualizes a knowledge graph to provide insights on organizational performance.',
+        tags: ['Dash', 'networkx', 'Python'],
+        link: 'https://gopeaks-emie2.herokuapp.com'
+    },
+    {
         name: 'det0x - Toxic Comments Classifier',
-        desc: 'A web-app written in Python designed to classify toxic user comments on Twitter.',
-        tags: ['Keras', 'Flask', 'Twitter API', 'Jinja', 'Python'],
+        desc: 'A web-app written in Python designed to gain insight on the tweet history of Twitter users by classifying their toxic tweets.',
+        tags: ['Keras', 'Flask', 'tweepy', 'Python'],
         link: 'https://det0x.herokuapp.com/',
     },
     {
