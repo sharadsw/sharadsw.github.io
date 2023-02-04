@@ -18,8 +18,7 @@ const About = () => {
         <div className="about__text">
           <p>
             I'm a graduate student majoring in Computer Science at UNC Charlotte.
-            I'm a Full Stack developer currently looking for a fun and challenging internship
-            for Summer 2022.
+            I'm a Full Stack developer currently looking for work that I find exciting and challenging.
           </p>
           <p>  
             In my free time, I like watching football (soccer), listening to music, playing chess, and working out. Feel free to contact me
