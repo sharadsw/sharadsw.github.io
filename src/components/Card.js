@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Card = ({ name, desc, tags, link }) => {
+const Card = ({ name, desc, tags, link, repo }) => {
 
   return (
-    <a href={link} target="_blank" rel="noreferrer">
-
     <div className="card mb-4 card-border">
       <div className="card-content">
         <div className="media">
@@ -20,6 +18,7 @@ const Card = ({ name, desc, tags, link }) => {
             <p className="subtitle is-6">
               {desc}
             </p>
+            
             <p>
               {tags.map(tag => 
                 <span key={tag} className="tag is-grey-dark mr-1">{tag}</span>
@@ -28,9 +27,12 @@ const Card = ({ name, desc, tags, link }) => {
           </div>
         </div>
       </div>
-    </div>
 
-    </a>
+      <footer class="card-footer">
+        {link && <a href={link} target="_blank" rel="noreferrer" class="card-footer-item">Live</a>}
+        {repo && <a href={repo} target="_blank" rel="noreferrer" class="card-footer-item">Code</a>}
+      </footer>
+    </div>
   )
 }
 

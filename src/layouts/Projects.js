@@ -13,7 +13,7 @@ const Projects = () => {
         Projects
       </h1>
       {projects.map(data =>
-        <Card key={data.name} name={data.name} desc={data.desc} tags={data.tags} link={data.link} />
+        <Card key={data.name} name={data.name} desc={data.desc} tags={data.tags} link={data.link} repo={data.repo} />
       )}
     </div>
 

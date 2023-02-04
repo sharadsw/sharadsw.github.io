@@ -26,11 +26,29 @@ const About = () => {
             if you'd like to connect!
           </p>
           <p>
-            <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email} target="_blank" rel="noreferrer">
-              Email
+            <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={resume} target="_blank" rel="noreferrer">
+              <span className="icon is-small">
+                <i className="far fa-file"></i>
+              </span>
+              <span>Resume</span>
             </a>
-            <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={resume} target="_blank" rel="noreferrer">
-              Resume
+            <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email} target="_blank" rel="noreferrer">
+              <span className="icon is-small">
+                <i className="fas fa-envelope"></i>
+              </span>
+              <span>Email</span>
+            </a>
+            <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.linkedin} target="_blank" rel="noreferrer">
+              <span className="icon is-small">
+                <i className="fab fa-linkedin"></i>
+              </span>
+              <span>Linkedin</span>
+            </a>
+            <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.github} target="_blank" rel="noreferrer">
+              <span className="icon is-small">
+                <i className="fab fa-github"></i>
+              </span>
+              <span>Github</span>
             </a>
           </p>
         </div>
