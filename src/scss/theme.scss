@@ -34,17 +34,8 @@ $footer-background-color: $deep-blue-dark;
 @import "../../node_modules/bulma/bulma.sass";
 
 // Custom classes
-.card-border {
-    border: none;
-}
-
 .media-left {
     align-self: center;
-}
-
-.card-border:hover {
-    border: 1px solid $border;
-    // box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
 }
 
 .navbar-center {
@@ -56,13 +47,30 @@ $footer-background-color: $deep-blue-dark;
     width: 240px;
     height: 240px;
     border-radius: 100%;
+    border: 2px solid;
+    border-color: $deep-blue;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .about__content {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 }
 
 .about__text {
     margin-left: 2em;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 1.5em;
+        margin-left: 0;
+    }
 }
