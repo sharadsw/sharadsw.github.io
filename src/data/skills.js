@@ -1,8 +1,8 @@
 const lang = [
-    { name: 'Java', icon: 'devicon-java-plain' },
     { name: 'Python', icon: 'devicon-python-plain' },
     { name: 'JavaScript', icon: 'devicon-javascript-plain' },
     { name: 'TypeScript', icon: 'devicon-typescript-plain' },
+    { name: 'Java', icon: 'devicon-java-plain' },
     { name: 'HTML5', icon: 'devicon-html5-plain' },
     { name: 'CSS3', icon: 'devicon-css3-plain' },
 ]
@@ -16,6 +16,12 @@ const libs = [
     { name: 'GraphQL', icon: 'devicon-graphql-plain' }
 ]
 
+const datasci = [
+    { name: 'PyTorch', icon: 'devicon-pytorch-original' },
+    { name: 'Numpy', icon: 'devicon-numpy-original' },
+    { name: 'Pandas', icon: 'devicon-pandas-original' },
+]
+
 const tools = [
     { name: 'Git', icon: 'devicon-git-plain' },
     { name: 'Linux Shell', icon: 'devicon-linux-plain' },
@@ -25,6 +31,6 @@ const tools = [
     { name: 'SASS', icon: 'devicon-sass-original' },
 ]
 
-const skills = { lang, libs, tools }
+const skills = { lang, libs, tools, datasci }
 
 export default skills

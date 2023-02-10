@@ -31,6 +31,7 @@ const Skills = () => {
       <div className="columns">
         <SkillColumn title="Languages" skills={skills.lang} />
         <SkillColumn title="Frameworks/Libraries" skills={skills.libs} />
+        <SkillColumn title="Data Science" skills={skills.datasci} />
         <SkillColumn title="Tools" skills={skills.tools} />
       </div>
     </div>

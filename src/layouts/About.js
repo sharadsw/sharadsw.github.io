@@ -1,7 +1,6 @@
 import React from 'react'
 
 import links from '../data/links'
-import resume from '../assets/resume.pdf'
 import photo from '../assets/photo.jpeg'
 
 const About = () => {
@@ -18,26 +17,17 @@ const About = () => {
         <div className="about__text">
           <p>
             I'm a graduate student majoring in Computer Science at UNC Charlotte.
-            I'm a Full Stack developer currently looking for work that I find exciting and challenging.
-          </p>
-          <p>  
-            In my free time, I like watching football (soccer), listening to music, playing chess, and working out. Feel free to contact me
-            if you'd like to connect!
+            I'm a Software Engineer with a focus in Data Science and Machine Learning. I'm also well-versed in 
+            Frontend and Backend development. I'm graduating in Spring 2023 and I'm currently looking for a full time position.
           </p>
           <p>
-            <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={resume} target="_blank" rel="noreferrer">
-              <span className="icon is-small">
-                <i className="far fa-file"></i>
-              </span>
-              <span>Resume</span>
-            </a>
-            <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email} target="_blank" rel="noreferrer">
+            <a className="button is-link mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.email} target="_blank" rel="noreferrer">
               <span className="icon is-small">
                 <i className="fas fa-envelope"></i>
               </span>
               <span>Email</span>
             </a>
-            <a className="button is-primary mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.linkedin} target="_blank" rel="noreferrer">
+            <a className="button is-info mt-2 mr-2 has-text-weight-bold is-uppercase" href={links.linkedin} target="_blank" rel="noreferrer">
               <span className="icon is-small">
                 <i className="fab fa-linkedin"></i>
               </span>

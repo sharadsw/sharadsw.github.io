@@ -1,23 +1,23 @@
 const projects = [
     {
         name: 'EMIE 2.0',
-        desc: 'A web-app written in Python that visualizes a knowledge graph to provide insights on organizational performance.',
+        desc: 'A web-app written in Python that visualizes a knowledge graph to provide insights on organizational performance. The goal of the web-app is to provide an easy-to-use interface to visualize a knowledge graph on custom data.',
         tags: ['Plotly Dash', 'Networkx', 'Python'],
-        link: 'https://gopeaks-emie2.onrender.com',
+        link: 'https://gopeaks-emie2.up.railway.app/',
         repo: 'https://github.com/sharadsw/gopeaks-project'
     },
     {
         name: 'det0x - Toxic Comments Classifier',
-        desc: 'A web-app written in Python designed to gain insight on the tweet history of Twitter users by classifying their toxic tweets.',
+        desc: 'A web application written in Flask that helps gain insight on the percentage of toxic tweets of Twitter users in order to determine their online behaviour based on their tweet history. The application uses a neural network model written using Keras for classifying text input.',
         tags: ['Keras', 'Flask', 'Tweepy', 'Python'],
-        link: 'https://det0x.onrender.com/',
+        link: null,
         repo: 'https://gitlab.com/sharadsw/toxic-comments'
     },
     {
         name: 'Chess Statistics Visualization',
-        desc: 'A web-app built using Python to obtain insights on global chess statistics by country, age, rating, and gender.',
+        desc: 'A web-app built using Streamlit to obtain insights on global chess statistics by country, age, rating, and gender. The app visualizes data on various aspects of chess for all countries to provide insights.',
         tags: ['Streamlit', 'Pandas', 'Python'],
-        link: 'https://itcs4122-chess.onrender.com/',
+        link: 'https://itcs4122-chess.up.railway.app/',
         repo: 'https://github.com/sharadsw/itcs4122-chess'
     },
     {
@@ -29,7 +29,7 @@ const projects = [
     },
     {
         name: 'Lyricify',
-        desc: 'A CLI app written in Python for web scraping Spotify lyrics.',
+        desc: 'A command-line and GUI desktop application for Linux that detects and displays lyrics for Spotify songs.',
         tags: ['Web Scraping', 'BeautifulSoup', 'GTK', 'Python'],
         link: null,
         repo: 'https://github.com/sharadsw/lyricify'
