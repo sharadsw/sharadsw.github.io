@@ -1,7 +1,11 @@
 @charset "utf-8";
 
 // Font
-@import url('https://rsms.me/inter/inter.css');
+@use "~inter-ui/default" as inter-ui with (
+	$inter-font-path: "~inter-ui/Inter (web latin)"
+);
+@include inter-ui.weight-400;
+@include inter-ui.weight-800;
 
 // Colours
 $deep-blue: #374151;
