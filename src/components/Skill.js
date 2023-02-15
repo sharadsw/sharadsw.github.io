@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Skill = ({ name, icon }) => {
+const Skill = ({ name, icon, years }) => {
   
   return (
     <div>
@@ -8,7 +8,7 @@ const Skill = ({ name, icon }) => {
         <i className={icon}></i>
       </span>
       <span className="ml-4">
-        {name}
+        {name} ({years} yr{years > 1 && "s"})
       </span>
     </div>
   )

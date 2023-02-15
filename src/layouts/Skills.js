@@ -12,7 +12,7 @@ const SkillColumn = ({ title, skills }) => {
       <h2 className="subtitle">{title}</h2>
       {
         skills.map(skill => 
-          <Skill key={skill.name} name={skill.name} icon={skill.icon} />
+          <Skill key={skill.name} name={skill.name} icon={skill.icon} years={skill.years} />
       )}
     </div>
   )
