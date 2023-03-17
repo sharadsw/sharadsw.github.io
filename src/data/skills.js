@@ -1,34 +1,34 @@
 const lang = [
-    { name: 'Python', icon: 'devicon-python-plain', years: 5 },
-    { name: 'JavaScript', icon: 'devicon-javascript-plain', years: 3 },
-    { name: 'TypeScript', icon: 'devicon-typescript-plain', years: 3 },
-    { name: 'Java', icon: 'devicon-java-plain', years: 5 },
-    { name: 'HTML5', icon: 'devicon-html5-plain', years: 7 },
-    { name: 'CSS3', icon: 'devicon-css3-plain', years: 7 },
+    { name: 'Python', icon: 'devicon-python-plain' },
+    { name: 'JavaScript', icon: 'devicon-javascript-plain' },
+    { name: 'TypeScript', icon: 'devicon-typescript-plain' },
+    { name: 'Java', icon: 'devicon-java-plain' },
+    { name: 'HTML5', icon: 'devicon-html5-plain' },
+    { name: 'CSS3', icon: 'devicon-css3-plain' },
 ]
 
 const libs = [
-    { name: 'React', icon: 'devicon-react-original', years: 3 },
-    { name: 'Express', icon: 'devicon-express-original', years: 3 },
-    { name: 'Node.js', icon: 'devicon-nodejs-plain', years: 3 },
-    { name: 'Flask', icon: 'devicon-flask-original', years: 4 },
-    { name: 'Redux', icon: 'devicon-redux-original', years: 3 },
-    { name: 'GraphQL', icon: 'devicon-graphql-plain', years: 3 }
+    { name: 'React', icon: 'devicon-react-original' },
+    { name: 'Express', icon: 'devicon-express-original' },
+    { name: 'Node.js', icon: 'devicon-nodejs-plain' },
+    { name: 'Flask', icon: 'devicon-flask-original' },
+    { name: 'Redux', icon: 'devicon-redux-original' },
+    { name: 'GraphQL', icon: 'devicon-graphql-plain' }
 ]
 
 const datasci = [
-    { name: 'PyTorch', icon: 'devicon-pytorch-original', years: 2 },
-    { name: 'Numpy', icon: 'devicon-numpy-original', years: 2 },
-    { name: 'Pandas', icon: 'devicon-pandas-original', years: 2 },
+    { name: 'PyTorch', icon: 'devicon-pytorch-original' },
+    { name: 'Numpy', icon: 'devicon-numpy-original' },
+    { name: 'Pandas', icon: 'devicon-pandas-original' },
 ]
 
 const tools = [
-    { name: 'Git', icon: 'devicon-git-plain', years: 6 },
-    { name: 'Linux', icon: 'devicon-linux-plain', years: 4 },
-    { name: 'PostgreSQL', icon: 'devicon-postgresql-plain', years: 3 },
-    { name: 'MySQL', icon: 'devicon-mysql-plain', years: 3 },
-    { name: 'MongoDB', icon: 'devicon-mongodb-plain', years: 3 },
-    { name: 'SASS', icon: 'devicon-sass-original', years: 1 },
+    { name: 'Git', icon: 'devicon-git-plain' },
+    { name: 'Linux Shell', icon: 'devicon-linux-plain' },
+    { name: 'PostgreSQL', icon: 'devicon-postgresql-plain' },
+    { name: 'MySQL', icon: 'devicon-mysql-plain' },
+    { name: 'MongoDB', icon: 'devicon-mongodb-plain' },
+    { name: 'SASS', icon: 'devicon-sass-original' },
 ]
 
 const skills = { lang, libs, tools, datasci }
