@@ -1,12 +1,5 @@
 const projects = [
     {
-        name: 'EMIE 2.0',
-        desc: 'A web-app written in Python that visualizes a knowledge graph to provide insights on organizational performance. The goal of the web-app is to provide an easy-to-use interface to visualize a knowledge graph on custom data.',
-        tags: ['Plotly Dash', 'Networkx', 'Python'],
-        link: 'https://gopeaks-emie2.up.railway.app/',
-        repo: 'https://github.com/sharadsw/gopeaks-project'
-    },
-    {
         name: 'det0x - Toxic Comments Classifier',
         desc: 'A web application written in Flask that helps gain insight on the percentage of toxic tweets of Twitter users in order to determine their online behaviour based on their tweet history. The application uses a neural network model written using Keras for classifying text input.',
         tags: ['Keras', 'Flask', 'Tweepy', 'Python'],
