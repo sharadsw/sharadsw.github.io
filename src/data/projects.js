@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: 'gamefreebies - Tracker for video game giveaways',
+        desc: 'A Next.js application for tracking video game giveaways by sending daily email updates.',
+        tags: ['Next.js', 'Prisma', 'Redis', 'PostgreSQL', 'AWS', 'TypeScript'],
+        link: 'https://gamefreebies.app',
+        repo: 'https://github.com/sharadsw/gamefreebies'
+    },
+    {
         name: 'det0x - Toxic Comments Classifier',
         desc: 'A web application written in Flask that helps gain insight on the percentage of toxic tweets of Twitter users in order to determine their online behaviour based on their tweet history. The application uses a neural network model written using Keras for classifying text input.',
         tags: ['Keras', 'Flask', 'Tweepy', 'Python'],
@@ -12,13 +19,6 @@ const projects = [
         tags: ['Streamlit', 'Pandas', 'Python'],
         link: 'https://itcs4122-chess.up.railway.app/',
         repo: 'https://github.com/sharadsw/itcs4122-chess'
-    },
-    {
-        name: 'Portfolio',
-        desc: 'This site right here! Built using React and Bulma SCSS and deployed on GitHub pages.',
-        tags: ['React', 'SCSS', 'Bulma', 'JavaScript'],
-        link: 'https://sharadsw.github.io',
-        repo: 'https://github.com/sharadsw/sharadsw.github.io',
     },
     {
         name: 'Lyricify',

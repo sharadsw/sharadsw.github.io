@@ -13,7 +13,8 @@ const libs = [
     { name: 'Node.js', icon: 'devicon-nodejs-plain' },
     { name: 'Flask', icon: 'devicon-flask-original' },
     { name: 'Redux', icon: 'devicon-redux-original' },
-    { name: 'GraphQL', icon: 'devicon-graphql-plain' }
+    { name: 'GraphQL', icon: 'devicon-graphql-plain' },
+    { name: 'Next.js', icon: 'devicon-nextjs-original' }
 ]
 
 const datasci = [
